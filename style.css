@@ -1,0 +1,60 @@
+html {
+  height: 100%;
+  width: 100%;
+  /* border: 2px solid green; */
+  background-image: url("image.png");
+  background-size: contain;
+  background-repeat: repeat;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list {
+  display: block;
+  padding: 10px;
+  margin: auto;
+  height: 550px;
+  width: 500px;
+  background-image: url("https://marketplace.canva.com/EAF9PpRLkaE/1/0/900w/canva-green-beige-natural-simple-instagram-story-zHsKVs8V6N0.jpg");
+  background-repeat:repeat;
+  opacity: 0.8;
+  overflow-y: scroll;
+  /* border: 2px solid green; */
+  border-radius: 20px;
+  box-shadow: 0 4px 4px 0 white, 0 6px 10px 0 yellow;
+}
+
+.entry {
+  display: flex;
+  padding-left: 30px;
+  margin: auto;
+  height: 30px;
+  width: 400px;
+}
+
+.input {
+  display: flex;
+  margin: 0%;
+  padding: 10px;
+  height: 30px;
+  width: auto;
+  background-image: url("https://pub-static.fotor.com/assets/bg/aa4d0804-a2ac-43ea-a7ae-e6b39d0a5d91.jpg");
+  opacity: 0.9;
+  /* border: 2px solid green; */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 yellow;
+  color: black;
+  font-size: 20px;
+}
+
+.button {
+  display: block;
+  margin: auto;
+  height: 50px;
+  width: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 yellow;
+}
